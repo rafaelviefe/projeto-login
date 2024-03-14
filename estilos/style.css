@@ -46,7 +46,7 @@ main{
     overflow: hidden;
     background-color: white;
     width: 258px;
-    height: 500px;
+    height: 530px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.432);
     transition: width .3s, height .3s;
@@ -89,6 +89,7 @@ label{
     font-size: 2em;
     width: 40px;
     padding: 5px;
+    transform: translateY(-5px);
 }
 .campo>input{
     background-color: #5f3f52;
@@ -99,7 +100,7 @@ label{
     border-radius: 6px;
     text-indent: 10px;
     color: white;
-    transform: translateY(-13px);
+    transform: translateY(-16px);
 }
 input[type=submit]{
     display: block;
