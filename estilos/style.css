@@ -14,7 +14,7 @@
     box-sizing: border-box;
 }
 body,html{
-    background-color: var(--roxo);
+    background-color: var(--laranja3);
     height: 100vh;
     width: 100vw;
 }
@@ -34,14 +34,16 @@ main{
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.432);
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 .imagem{
     background: var(--roxo) url(../imagens/pexels-lukas-rodriguez-20272497.jpg) center center;
     background-size: cover;
     height: 200px;
-    display: blox;
+    display: block;
 }
 .formulario{
     padding: 10px;
-    display: blox;
+    display: block;
 }
