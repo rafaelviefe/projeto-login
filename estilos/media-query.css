@@ -12,6 +12,7 @@
     }
     .login{
         width: 80vw;
+        height: 345px;
     }
     .imagem{
         float: left;
@@ -27,6 +28,7 @@
     }
     p{
         font-size: 1.1em;
+        margin-bottom: 13px;
     }
 }
 @media screen and (min-width: 992px){
@@ -35,6 +37,7 @@
     }
     .login{
         width: 950px;
+        height: 380px;
     }
     .imagem{
         float: right;
@@ -49,6 +52,7 @@
         font-size: 2em;
     }
     p{
-        font-size: 1.2em;
+        font-size: 1.1em;
+        margin-bottom: 12px;
     }
 }
